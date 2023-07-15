@@ -12,13 +12,19 @@
       <div class="column left-side"></div>
       <div class="column middle">
         <h3>Please enter your text below</h3>
-        <div class="controls">
-          <input type="radio" id="reverseWords" name="reverseType" value="words" checked>
-          <label for="reverseWords">Reverse Words Only</label>
-          <input type="radio" id="reverseSentence" name="reverseType" value="sentence">
-          <label for="reverseSentence">Reverse Whole Sentence</label>
-          <input type="radio" id="flipWords" name="reverseType" value="flipWords">
-          <label for="flipWords">Flip text</label>
+        <div class="radio-group">
+          <div>
+            <input type="radio" id="reverseWords" name="reverseType" value="words" checked>
+            <label for="reverseWords">Reverse Words Only</label>
+          </div>
+          <div>
+            <input type="radio" id="reverseSentence" name="reverseType" value="sentence">
+            <label for="reverseSentence">Reverse Whole Sentence</label>
+          </div>
+          <div>
+            <input type="radio" id="flipWords" name="reverseType" value="flipWords">
+            <label for="flipWords">Flip text</label>
+          </div>
         </div>
         <textarea id="textArea" rows="20"></textarea>                 
         <div  class="buttons">
