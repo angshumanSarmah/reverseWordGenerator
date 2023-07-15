@@ -1,6 +1,6 @@
 body {
-    margin: 0; /* Remove default body margin */
-    background-color: #e0dede ; /* White background color */
+    margin: 0;
+    background-color: #e0dede ;
   }
   
   header {
@@ -14,7 +14,7 @@ body {
   }
   
   nav {
-    flex-grow: 1; /* Fill the remaining space */
+    flex-grow: 1;
     height: 2rem
   }
   
@@ -22,35 +22,16 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Align items in a row */
-    justify-content: flex-end; /* Right alignment */
-    margin: 0; /* Remove default nav margin */
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
   }
-  
-  nav ul li {
-    margin-left: 10px;
-  }
-  
+ 
   nav ul li a, a {
     text-decoration: none;
-    color: #ffffff; /* White text color */
-  }
-  
-  #reverse-text {
-    font-weight: bold;
-    margin-left: 10px;
-    color: #ffffff; /* White text color */
-  }
-  
-
-  nav ul li a.selected {
-    color: #000000; /* Black color for the selected option */
+    color: #ffffff;
   }
 
-
-
-
-  /* index.html styles */
   .container {
     display: flex;
     justify-content: center;
@@ -83,7 +64,7 @@ body {
   textarea {
     width: 100%;
     max-height: 15rem;
-    font-size: 1.2rem; /* Adjust the value as per your preference */
+    font-size: 1.2rem;
   }
 
   /* converted-text */
@@ -94,7 +75,6 @@ body {
     height: 15rem;
   }
 
-  /* CSS styles for the non-resizable textarea */
   textarea {
     resize: none;
   }
@@ -108,7 +88,6 @@ body {
   }
 
   /* about */
-
   .about-container {
     padding: 40px;
     display: flex;
