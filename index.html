@@ -9,26 +9,25 @@
   <div id="common-content"></div>
   <main>
     <div class="container">
-      <div class="column"></div>
+      <div class="column left-side"></div>
       <div class="column middle">
         <h3>Please enter your text below</h3>
-        <div class="radio-group">
-          <div>
-            <input type="radio" id="reverseWords" name="reverseType" value="words" checked>
-            <label for="reverseWords">Reverse Words Only</label>
-          </div>
-          <div>
-            <input type="radio" id="reverseSentence" name="reverseType" value="sentence">
-            <label for="reverseSentence">Reverse Whole Sentence</label>
-          </div>
+        <div class="controls">
+          <input type="radio" id="reverseWords" name="reverseType" value="words" checked>
+          <label for="reverseWords">Reverse Words Only</label>
+          <input type="radio" id="reverseSentence" name="reverseType" value="sentence">
+          <label for="reverseSentence">Reverse Whole Sentence</label>
+          <input type="radio" id="flipWords" name="reverseType" value="flipWords">
+          <label for="flipWords">Flip text</label>
         </div>
-        <textarea id="textArea" rows="20" maxlength="1500"></textarea>
-        <div class="buttons">
+        <textarea id="textArea" rows="20"></textarea>                 
+        <div  class="buttons">
           <button onclick="clearContent()">Clear</button>
           <button onclick="convertContent()">Convert</button>
         </div>
+        <textarea id="converted-text" disabled></textarea>
       </div>
-      <div class="column"></div>
+      <div class="column right-side"></div>
     </div>
   </main>
   <div class="toast" id="toast-converted">Text converted successfully!</div>

@@ -10,7 +10,6 @@ body {
     background: linear-gradient(to right, #3399ff, #66a3ff, #73a9fb, #9dc1f8); /* Gradient from left to right with four mid tones of blue */
     padding: 10px;
     margin: 0; /* Remove default header margin */
-    margin-bottom: 3rem;
 
   }
   
@@ -72,21 +71,20 @@ body {
     margin-top: 0;
   }
   
-
-  .radio-group {
-    text-align: left;
-  }
-  
-  .radio-group div {
-    margin-bottom: 5px;
-  }
-
   textarea {
     width: 100%;
-    max-height: 250px;
+    max-height: 15rem;
     font-size: 1.2rem; /* Adjust the value as per your preference */
   }
-  
+
+  /* converted-text */
+  #converted-text {
+    margin-top: .5rem;
+    border: 2px solid rgb(26, 24, 24);
+    border-radius: 1%;
+    height: 15rem;
+  }
+
   /* CSS styles for the non-resizable textarea */
   textarea {
     resize: none;
@@ -98,6 +96,10 @@ body {
   
   .buttons button {
     margin-right: 10px;
+  }
+
+  .controls {
+    text-align: left;
   }
   
 
@@ -131,6 +133,12 @@ body {
     line-height: 1.6;
   }
 
+/* 
+  .right-side {
+    height: 80vh;
+    padding: 1rem;
+    border: 1px solid black
+  } */
 
 
   /* Toast notification styles */
@@ -152,3 +160,4 @@ body {
     opacity: 1;
     visibility: visible;
   }
+
