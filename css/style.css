@@ -143,3 +143,7 @@ body {
     visibility: visible;
   }
 
+  .logo {
+    height: 2rem
+  }
+
